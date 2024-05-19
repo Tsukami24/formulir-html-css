@@ -1,0 +1,48 @@
+
+*{
+    font-family: 'mulish';
+}
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color: #570A57;
+}
+
+.container {
+    background-color: rgba(212, 213, 214, 0.327);
+    width: 620px;
+    max-width: 500px;
+    margin: 0px auto;
+    padding: 50px;
+    box-sizing: border-box;
+    border-radius: 40px;
+}
+
+.form-control {
+    margin-bottom: 15px;
+}
+
+input[type="text"], input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}

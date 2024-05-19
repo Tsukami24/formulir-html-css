@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pendaftaran</title>
+<body>
+    <div class="container">
+        <h1>Form Pendaftaran SMK Nusa Indah </h1>
+        <form>
+            <div class="form-control">
+                <label for="nama">Nama Lengkap:</label>
+                <input type="text" id="nama" name="nama" required>
+            </div>
+
+            <div class="form-control">
+                <label for="nama">Tempat dan Tgl lahir:</label>
+                <input type="text" id="tempat_tgl_lahir " name="tempat_tgl_lahir" required>
+            </div>
+
+            <div class="form-control">
+                <label for="usia">Usia:</label>
+                <input type="number" id="usia" name="usia" min="1" required>
+            </div>
+
+            <div class="form-control">
+                <label for="alamat">Alamat:</label>
+                <input type="text" id="alamat" name="alamat" required>
+            </div>
+
+            <div class="form-control">
+                <label for="jenis_kelamin">Jenis Kelamin:</label>
+                <input type="radio" id="laki_laki" name="jenis_kelamin" value="laki_laki" required>
+                <label for="laki_laki">Laki-laki</label>
+                <input type="radio" id="perempuan" name="jenis_kelamin" value="perempuan" required>
+                <label for="perempuan">Perempuan</label>
+            </div>
+
+            <div class="form-control">
+                <label for="NISN">NISN:</label>
+                <input type="tel" id="NISN" name="NISN" required>
+            </div>
+
+            <div class="form-control">
+                <label for="Nomor_telpon">Nomor Telepon:</label>
+                <input type="tel" id="phone" name="phone" required> 
+            </div>
+
+            <div class="form-control">
+                <label for="Kewarganegaraan">Kewarganegaraan:</label>
+                <input type="text" id="Kewarganegaraan" name="Kewarganegaraan" required>
+            </div>
+
+            <div class="form-control">
+                <label for="pilihan_paket">Pilih Jurusan:</label>
+                <select id="pilihan_paket" name="pilihan_paket" required>
+                    <option value="paket_a">Akuntansi</option>
+                    <option value="paket_b">Perhotelan</option>
+                    <option value="paket_c">Tata Boga</option>
+                    <option value="paket_c">Otomitif</option>
+
+                </select>
+            </div>
+
+            <div class="form-control">
+                <button type="submit">Daftar</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
